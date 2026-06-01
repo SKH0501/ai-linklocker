@@ -1,0 +1,6 @@
+{
+  "name": "LinkLocker",
+  "description": "캠퍼스 분실물 안심 보관 및 스마트 수령 서비스 (따듯한 감성의 안심 정류소)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

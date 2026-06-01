@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Redefining default gray/stone to the exquisite earthy shades from the POOM design HTML */
+  --color-stone-50: #FCF9F5;
+  --color-stone-100: #FDFBF9;
+  --color-stone-200: #F0E6D8;
+  --color-stone-300: #E7DCCF;
+  --color-stone-400: #BDB1A8;
+  --color-stone-500: #8C7E74;
+  --color-stone-600: #7A6D63;
+  --color-stone-700: #5C4F46;
+  --color-stone-800: #4A3F35;
+  --color-stone-900: #2D241E;
+
+  /* Redefining blue shades into the signature POOM gold/amber gradient accents so that all existing blue tags, pills, overlays instantly look perfectly polished! */
+  --color-blue-50: #FEF3C7;       /* Soft light amber-yellow */
+  --color-blue-100: #F5EFE6;      /* Soft sand accent block */
+  --color-blue-200: #F0E6D8;      /* Warm border */
+  --color-blue-500: #FB923C;      /* Orange highlight */
+  --color-blue-600: #D97706;      /* Signature Amber POOM Gold */
+  --color-blue-700: #B45F06;      /* Darker POOM Gold */
+  --color-blue-800: #92400E;      /* Rich Ochre */
+  --color-blue-900: #78350F;      /* Deep Gold/Brown */
+  --color-blue-950: #2D241E;      /* Dark Brand Espresso */
+
+  --color-indigo-50: #FEF3C7;
+  --color-indigo-100: #F5EFE6;
+  --color-indigo-200: #F0E6D8;
+  --color-indigo-500: #FB923C;
+  --color-indigo-600: #D97706;
+  --color-indigo-700: #B45F06;
+  --color-indigo-800: #92400E;
+  --color-indigo-900: #2D241E;
+
+  --color-amber-50: #FCF9F5;
+  --color-amber-100: #FEF3C7;
+  --color-amber-500: #F59E0B;
+  --color-amber-600: #D97706;
+  --color-amber-700: #B45F06;
+}
+
+/* Custom UI styling adjustments for gorgeous shadows, transitions, scrollbars to give it high-fidelity professional polish */
+body {
+  font-family: var(--font-sans);
+  background-color: #F5EFE6; /* Cozy background surrounding the tablet */
+  color: #4A3F35;
+}
+
+/* Custom scrollbar to keep layout clean and sandy */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E7DCCF;
+  border-radius: 99px;
+}
